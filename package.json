@@ -1,0 +1,28 @@
+{
+  "name": "pseudo-perseus",
+  "version": "1.0.0",
+  "description": "Informative renderer for Khan academy's Perseus markdown format￼Edit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulikoehler/pseudo-perseus.git"
+  },
+  "author": "Uli Köhler",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ulikoehler/pseudo-perseus/issues"
+  },
+  "homepage": "https://github.com/ulikoehler/pseudo-perseus#readme",
+  "dependencies": {
+    "katex": "^0.10.0-beta",
+    "koa": "^2.5.2",
+    "koa-body": "^4.0.4",
+    "koa-body-parser": "^1.1.2",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "showdown": "^1.8.6"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "pseudo-perseus",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Informative renderer for Khan academy's Perseus markdown format￼Edit",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,12 @@
+[Unit]
+Description=PseudoPerseus server
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/node index.js
+WorkingDirectory=/opt/pseudo-perseus
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

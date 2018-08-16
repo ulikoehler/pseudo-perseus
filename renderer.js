@@ -1,7 +1,7 @@
 /**
  * NOTE: In the browser, you'll need to load the showdown library & KaTeX.
  */
-if(require) {
+if(typeof(require) !== 'function') {
     var showdown = require("showdown");
     var katex = require("katex");
 }

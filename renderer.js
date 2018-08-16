@@ -6,7 +6,6 @@ if(require) {
     var katex = require("katex");
 }
 
-
 /**
  * Pseudo-Perseus renderer.
  */
@@ -54,7 +53,7 @@ class PseudoPerseusRenderer {
               rawFormulae: rawFormulae,
               exception: ex.message,
               orig_string: origString,
-              userAgent: navigator.userAgent
+              userAgent: navigator ? 'server' : navigator.userAgent
             };
             errors.push(infoObj);
             // console.warn('Rendering failed', infoObj),

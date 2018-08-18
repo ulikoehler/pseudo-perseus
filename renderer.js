@@ -53,7 +53,7 @@ class PseudoPerseusRenderer {
               rawFormulae: rawFormulae,
               exception: ex.message,
               orig_string: origString,
-              userAgent: typeof(navigator) === 'undefined' ? 'server' : navigator.userAgent
+              userAgent: typeof(navigator) === 'undefined' ? 'server' : (function(){return navigator.userAgent;})()
             };
             errors.push(infoObj);
             // console.warn('Rendering failed', infoObj),

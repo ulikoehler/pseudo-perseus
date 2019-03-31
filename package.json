@@ -4,7 +4,8 @@
   "description": "Informative renderer for Khan academy's Perseus markdown format￼Edit",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,11 @@
   },
   "homepage": "https://github.com/ulikoehler/pseudo-perseus#readme",
   "dependencies": {
-    "katex": "^0.10.0-beta",
-    "koa": "^2.5.2",
-    "koa-body": "^4.0.4",
-    "koa-body-parser": "^1.1.2",
+    "katex": "^0.10.1",
+    "koa": "^2.7.0",
+    "koa-body": "^4.1.0",
     "koa-json": "^2.0.2",
     "koa-router": "^7.4.0",
-    "showdown": "^1.8.6"
+    "showdown": "^1.9.0"
   }
 }

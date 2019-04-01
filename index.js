@@ -7,6 +7,11 @@ const router = new Router();
 
 const renderer = new PseudoPerseusRenderer()
 
+router.post("/api/version", async ctx => {
+  ctx.body = {version: "1.x", name: "pseudo-perseus"};
+});
+
+
 router.post("/api/render-perseus", async ctx => {
     ctx.body = renderer.render(ctx.request.body.input);
 });

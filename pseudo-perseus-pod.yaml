@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: pseudo-perseus
-        image: eu.gcr.io/watts-198422/pseudo-perseus:v1.0
+        image: eu.gcr.io/watts-198422/pseudo-perseus:v1.1.0
         ports:
         - containerPort: 9613

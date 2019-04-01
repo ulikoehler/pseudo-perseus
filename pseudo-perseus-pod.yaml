@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: pseudo-perseus
+spec:
+  replicas: 2
+  selector:
+    app: pseudo-perseus
+  template:
+    metadata:
+      name: pseudo-perseus
+      labels:
+        app: pseudo-perseus
+    spec:
+      containers:
+      - name: pseudo-perseus
+        image: eu.gcr.io/watts-198422/pseudo-perseus:v1.0
+        ports:
+        - containerPort: 9613

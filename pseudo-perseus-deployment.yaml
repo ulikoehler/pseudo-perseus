@@ -3,7 +3,7 @@ kind: ReplicationController
 metadata:
   name: pseudo-perseus
 spec:
-  replicas: 2
+  replicas: 6
   selector:
     app: pseudo-perseus
   template:
